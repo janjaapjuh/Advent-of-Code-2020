@@ -1,6 +1,6 @@
 var fs = require('fs');
 var text = fs.readFileSync('./day3.txt').toString('utf-8');
-var input = text.split('\n');
+var input = text.split('\r\n');
 
 String.prototype.replaceAt = function (index, replacement) {
 	return this.substr(0, index) + replacement + this.substr(index + replacement.length);
