@@ -356,10 +356,10 @@ function multiplyNumHitTrees(slopes) {
 	return trees * multiplyNumHitTrees(slopes.slice(1));
 }
 
-// Answer 3a
+// Answer 3a - Number of trees hit with slope 3 right and 1 down.
 console.log("Trees encountered: " + numHitTrees(3, 1));
 
-// Answer 3b
+// Answer 3b - Multiplication of number of trees hit with various slopes.
 var slopes = [{
 		right: 1,
 		down: 1
